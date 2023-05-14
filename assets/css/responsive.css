@@ -1,0 +1,178 @@
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    h3::before {
+       
+        width: 35%;
+    }
+    .header-item {
+        /* flex-direction: column; */
+        margin-top: 30px;
+        position: relative;
+    }
+    #toggle-bar {
+        display: none;
+    }
+    .menu-item {
+        transform: translateY(-390px);
+        position: absolute;
+        transition: 0.5s;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .menu-bar {
+        color: antiquewhite;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .menu-bar:hover {
+        cursor: pointer;
+    }
+    #toggle-bar:checked ~ .menu-item  {
+        transform: translateY(25px);
+    }
+    .menu-item ul {
+        margin-top: 10px;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+    }
+    .menu-item ul li {
+        margin-top: 10px;
+    }
+    .header-content {
+        top: 66%;
+    }
+    .header-content h1 {
+        font-size: 38px;
+    }
+    .about-items {
+        flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        padding-left:0px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .about-service {
+        flex-direction: column;
+    }
+    .about-service ul {
+        margin-right: 0;
+    }
+    .service-item {
+        flex-direction: column;
+    }
+    .service-box {
+        width: 100%;
+    }
+    .project-image {
+        flex-direction: column;
+    }
+    .project-img {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .project-img img {
+        display: block;
+    }
+    .rating {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+    }
+    .client, .award, .dimond, .coffee-cup {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .experience-box {
+        flex-direction: column;
+    }
+    .experience-box div {
+        text-align: center;
+    }
+    .top {
+        margin-bottom: 50px;
+    }
+    .box.right-box .bottom {
+        margin-top: 0;
+    }
+    .box.right-box .bottom {
+        margin-bottom: 50px;
+    }
+    .price-item {
+        flex-direction: column;
+    }
+    .basic {
+        width: 100%;
+        margin-bottom: 23px;
+    }
+    .team-member {
+        flex-direction: column;
+    }
+    .member {
+        width: 100%;
+    }
+    .member img {
+        display: block;
+    }
+    .services-text h2 {
+        font-size: 25px;
+    }
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+    #announcement {
+        height: 390px;
+    }
+    .announcement-text {
+        margin-top: 10px;
+    }
+    .announcement-text h2 {
+        font-size: 25px;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
+    .contact-form form {
+        width: 100%;
+    }
+    .bottom {
+        margin-top: 35px;
+    }
+    .info {
+        margin-left: 0;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .address, .phone, .email, .web {
+        width: 50%;
+    }
+    .footer-text {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .main-footer::after {
+        top: 64%;
+    }
+    .footer-widget p {
+        margin-top: 0;
+    }
+}
