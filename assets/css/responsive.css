@@ -27,6 +27,7 @@
         color: antiquewhite;
         font-size: 30px;
         cursor: pointer;
+        display: block;
     }
     .menu-bar:hover {
         cursor: pointer;

@@ -120,6 +120,9 @@ h4  {
 #toggle-bar {
     display: none;
 }
+.menu-bar {
+    display: none;
+}
 .menu-item ul {
     display: flex;
     list-style: none;
