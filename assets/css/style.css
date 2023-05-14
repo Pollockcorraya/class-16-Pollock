@@ -117,8 +117,8 @@ h4  {
     
 }
 /* Menu-item CSS */
-.menu-bar {
-    
+#toggle-bar {
+    display: none;
 }
 .menu-item ul {
     display: flex;

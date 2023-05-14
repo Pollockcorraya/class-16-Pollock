@@ -37,8 +37,6 @@
     .menu-item ul {
         margin-top: 10px;
         flex-direction: column;
-        text-align: center;
-        align-content: center;
     }
     .menu-item ul li {
         margin-top: 10px;
